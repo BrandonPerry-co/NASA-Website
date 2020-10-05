@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    color: whitesmoke ;
+    padding: 0;
     font-family: Roboto;
 }
 
@@ -24,6 +24,13 @@ h1{
     font-size: 100px;
     font-style: inherit;
     padding-top: 10px;
+    color: whitesmoke;
+    text-shadow: 2px 2px tomato;
+}
+
+h1:hover{
+    color: tomato;
+    text-shadow: 2.5px -4px whitesmoke;
 }
 
 div{
@@ -53,4 +60,10 @@ p{
 
 .button{
     background-color: lightcoral;
+}
+
+.button:hover{
+    background-color: red;
+    color: whitesmoke;
+
 }
